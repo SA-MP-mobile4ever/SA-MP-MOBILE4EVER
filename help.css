@@ -19,7 +19,11 @@ footer{
 }
 a{
 	font-family:monospace;
+	
 }
 li{
 	color:purple;
+}
+.here{
+	color:#03ecfc;
 }
