@@ -42,10 +42,10 @@
 	}
 
 	legend{
-	color:#31b1c4;
+	color:pink;
 	font-family:sans-serif;
 	font-size:27px;
-	border:1.5px solid #31b1c4;
+	border:1.5px solid pink;
 	text-align:left;
 	border-radius:15%;
 	background-color:white;
@@ -139,8 +139,8 @@
 		font-family:serif;
 	}
 	h5{
-	color:green;
-	border:1px solid green;
+	color:pink;
+	border:1px solid pink;
 	border-radius:3px;
 	font-family:serif;
 	text-align:center;
