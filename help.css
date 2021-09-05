@@ -1,0 +1,25 @@
+
+body{
+	margin:7%;
+	padding:-15%;
+	background:url("help1.jpg") no-repeat;
+	background-size: 360px 550px;
+		
+}
+
+h2{
+	font-family:monospace;
+	text-align:center;
+	color:purple;
+}
+footer{
+	color:black;
+	font-size:10px;
+	font-family:monospace;
+}
+a{
+	font-family:monospace;
+}
+li{
+	color:purple;
+}
