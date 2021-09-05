@@ -49,17 +49,20 @@ li{
 		color:black;
 	}
 	.title1 {
-		color: black;
-		border:2px solid orange;
-		border-radius:10px;
-		background-color:orange;
-		font-family:sans-serif;
-		font-size:15px;
-		text-align:right;
-		font-style:monospace;
+	color: black;
+	border:2px solid #487edb;
+	border-radius:10px;
+	background-color:#487edb;
+	font-family:sans-serif;
+	font-size:15px;
+	text-align:right;
+	font-style:monospace;
+	
+	
+	}
 	
 
-	}
+	
 	img{
 	width:60px;
 	height:25px;
@@ -69,8 +72,8 @@ li{
 	border-radius:50%;
 	}
 	h5{
-	color:pink;
-	border:1px solid pink;
+	color:#487edb;
+	border:1px solid #487edb;
 	border-radius:3px;
 	font-family:serif;
 	text-align:center;

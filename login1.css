@@ -31,54 +31,60 @@
 		color:black;
 	}
 	.title1 {
-		color: black;
-		border:2px solid orange;
-		border-radius:10px;
-		background-color:orange;
-		font-family:sans-serif;
-		font-size:15px;
-		text-align:right;
-		font-style:monospace;
+	color: black;
+	border:2px solid #487edb;
+	border-radius:10px;
+	background-color:#487edb;
+	font-family:sans-serif;
+	font-size:15px;
+	text-align:right;
+	font-style:monospace;
 	
-
+	
 	}
 
-	legend{
-		color:pink;
-		font-family:sans-serif;
-		font-size:27px;
-		border:1.5px solid pink;
-		text-align:left;
-		border-radius:15%;
-		background-color:white;
-		
-	}	
+	
 	.input1{
-		border: 1px solid #ba9fe3;
-		border-radius:50px;
-		width:150px;
-		text-align:center;
-		background-color:white;
-
+	border: 0px solid #27a8cc;
+	border-radius:3px;
+	width:150px;
+	text-align:center;
+	background-color:white;
+	
 	
 	}
 	.input2{
-		border-radius:70px;
-		width:100px;
-		border:2px solid green;
-		background:#6ded85;
-		
+	border-radius:70px;
+	width:100px;
+	border:2px solid #27a8cc;
+	background:#27a8cc;
+	
+	
 	
 	}
 	.input3{
-		border-radius:70px;
-		width:100px;
-		border:2px solid red;
-		background:red;
-		
+	border-radius:70px;
+	width:100px;
+	border:0 solid #27a8cc;
+
 	
 	}
-
+	.input1:focus{
+	width:165px;
+	
+	border:5px solid #27a8cc;
+	margin:0 15px;
+	}
+	.input3:focus{
+	width:100px;	
+	border:5px solid #27a8cc;
+	margin:0 15px;
+	}
+	.input2:focus{
+	width:100px;
+	border:5px solid #27a8cc;
+	margin:0 15px;
+	}
 	fieldset{
 		border:0 solid green;
 
@@ -94,14 +100,15 @@
 		font-size:10px;
 	}
 	label{
-		color:purple;
-		font-size:16px;
-		border:0px solid ;
-		border-radius: 3px;
-		background-color:#efe8fa;
-		text-align:left;
-		font-style:lucida;
-		font-family:monospace;
+	color:black;
+	font-size:11.5px;
+	border:2px solid #efe8fa;
+	border-radius: 50px;
+	background-color:#efe8fa;
+	text-align:left;
+	font-style:lucida;
+	font-family:monospace;
+	width:10px;
 	}
 	footer{
 		color:gray;
@@ -127,8 +134,8 @@
 	}
 
 	h5{
-	color:pink;
-	border:1px solid pink;
+	color:#487edb;
+	border:1px solid #487edb;
 	border-radius:3px;
 	font-family:serif;
 	text-align:center;
