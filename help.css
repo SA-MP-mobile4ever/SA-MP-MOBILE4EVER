@@ -39,7 +39,8 @@ li{
 	}
 	.dha {
 	color: black;
-
+	border:1px solid white;
+	background-color:white;
 	font-size:31px;
 	text-align: right;
 	font-style:italic;
@@ -51,7 +52,7 @@ li{
 	.title1 {
 	color: black;
 	border:2px solid #487edb;
-	border-radius:10px;
+	border-radius:3px;
 	background-color:#487edb;
 	font-family:sans-serif;
 	font-size:15px;
@@ -72,8 +73,8 @@ li{
 	border-radius:50%;
 	}
 	h5{
-	color:#487edb;
-	border:1px solid #487edb;
+	color:red;
+	border:1px solid red;
 	border-radius:3px;
 	font-family:serif;
 	text-align:center;

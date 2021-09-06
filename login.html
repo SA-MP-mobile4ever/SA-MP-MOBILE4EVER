@@ -8,37 +8,7 @@
 <img src="img.jpg" >
 </head>
 <body>
-	
-	<script type="text/javascript">
-	function print()
-	{
-    var b= document.getElementById("name").value
-	if(b == ""){
-	alert("invalid name !");
-	return 0;
-	}
-	if(document.getElementById("fname").value == "") 
-	
-	{
-	alert("invalid family name !");
-	return 0;
-	}
-	if(document.getElementById("pass").value == ""){
-	alert("Invalid password !");
-	return 0;
-	}
-	if(document.getElementById("mailbox").value == ""){
-	alert("Invalid email !");
-	return 0;
-	}
-    else
-    {
-    var a = "www.helperwebsite.com"
-	document.write("Thank you for signing in in our website \nfor more information visit our help page from here: \n  "+ a);		
-	}
-	}
-	</script>
-	
+
   &nbsp;&nbsp;&nbsp;&nbsp;<a class="cha" >SA</a>
     <a class="tirer">–</a>
     <a class="dha">MP</a>
@@ -47,10 +17,12 @@
 	<h4>You have been signed up successfully !</h4>
 	
 	<br>
+	<h2>LOGIN</h2>
+	
 	
 	<br>
 	
-	<form action="help.html"  method="post" >
+	<form action="index.php"  method="post" >
 		<fieldset>	
 		
 			
@@ -58,7 +30,7 @@
 			<table>
 				<tr>
 					<td>
-						<label>Username: </label>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-user"></i><label></label>
 					</td>
 					<td>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="name"  type="text" class="input1"  name="name"  placeholder="Enter Username" required="required" >
@@ -70,7 +42,7 @@
 				
 				<tr>
 				<td>
-				<label>Password: </label></td>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-lock"></i><label></label></td>
 				<td>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="pass"  type="password" class="input1"  name="password"  placeholder="Password" required="required" ></td>
 				
@@ -89,11 +61,8 @@
 			<br>
 			<br>
 			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
+			
+		
 
 			<br>			
 			<a class="acc" >Create new account ? </a><a href="index.html" class="acc1" >click here</a>
